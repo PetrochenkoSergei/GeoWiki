@@ -7,7 +7,6 @@
 //
 
 #import "SecondViewController.h"
-#import "DBImageView.h"
 
 @interface SecondViewController (){
     NSMutableArray *imageUrlSplitWord;
