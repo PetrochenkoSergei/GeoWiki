@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3CC683214F0BEA002C0BA0 /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CC682214F0BEA002C0BA0 /* ThirdTableViewController.m */; };
+		0B6EB45C214EBFB40011966C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6EB45B214EBFB40011966C /* Foundation.framework */; };
+		0B78B912214EEA1000789E8C /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B78B911214EEA1000789E8C /* Page.m */; };
+		0B90ABA0214BC58200F9F2A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90AB9F214BC58200F9F2A5 /* AppDelegate.m */; };
+		0B90ABA3214BC58200F9F2A5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90ABA2214BC58200F9F2A5 /* FirstViewController.m */; };
+		0B90ABA6214BC58200F9F2A5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90ABA5214BC58200F9F2A5 /* SecondViewController.m */; };
+		0B90ABA9214BC58200F9F2A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B90ABA7214BC58200F9F2A5 /* Main.storyboard */; };
+		0B90ABAB214BC58400F9F2A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B90ABAA214BC58400F9F2A5 /* Assets.xcassets */; };
+		0B90ABAE214BC58400F9F2A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B90ABAC214BC58400F9F2A5 /* LaunchScreen.storyboard */; };
+		0B90ABB1214BC58400F9F2A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90ABB0214BC58400F9F2A5 /* main.m */; };
+		0B90ABC2214BDC3D00F9F2A5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B90ABC1214BDC3D00F9F2A5 /* MapKit.framework */; };
+		0B90ABDD214BF50700F9F2A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B90ABDC214BF50700F9F2A5 /* CoreLocation.framework */; };
+		A4E4B7291D200EF2F2DAA2CB /* libPods-GeoWiki.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B81B6099106D7774E9A567 /* libPods-GeoWiki.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B3CC681214F0BEA002C0BA0 /* ThirdTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		0B3CC682214F0BEA002C0BA0 /* ThirdTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		0B6EB45B214EBFB40011966C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B78B910214EEA1000789E8C /* Page.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		0B78B911214EEA1000789E8C /* Page.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		0B90AB9B214BC58200F9F2A5 /* GeoWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B90AB9E214BC58200F9F2A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B90AB9F214BC58200F9F2A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B90ABA1214BC58200F9F2A5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0B90ABA2214BC58200F9F2A5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0B90ABA4214BC58200F9F2A5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0B90ABA5214BC58200F9F2A5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0B90ABA8214BC58200F9F2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B90ABAA214BC58400F9F2A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B90ABAD214BC58400F9F2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B90ABAF214BC58400F9F2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B90ABB0214BC58400F9F2A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B90ABC1214BDC3D00F9F2A5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0B90ABDC214BF50700F9F2A5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0EA61F5B501267EEF96C39F3 /* Pods-GeoWiki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoWiki.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoWiki/Pods-GeoWiki.release.xcconfig"; sourceTree = "<group>"; };
+		86B81B6099106D7774E9A567 /* libPods-GeoWiki.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeoWiki.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E290AC9483E758C083E96E49 /* Pods-GeoWiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoWiki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoWiki/Pods-GeoWiki.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B90AB98214BC58200F9F2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6EB45C214EBFB40011966C /* Foundation.framework in Frameworks */,
+				0B90ABDD214BF50700F9F2A5 /* CoreLocation.framework in Frameworks */,
+				0B90ABC2214BDC3D00F9F2A5 /* MapKit.framework in Frameworks */,
+				A4E4B7291D200EF2F2DAA2CB /* libPods-GeoWiki.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6EB421214C07170011966C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B78B910214EEA1000789E8C /* Page.h */,
+				0B78B911214EEA1000789E8C /* Page.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B6EB44A214EA4C50011966C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0B90AB9E214BC58200F9F2A5 /* AppDelegate.h */,
+				0B90AB9F214BC58200F9F2A5 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0B6EB44B214EA4EE0011966C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B6EB44C214EA51F0011966C /* FirstViewController */,
+				0B6EB44D214EA53A0011966C /* SecontViewController */,
+				0B6EB44E214EA5550011966C /* ThirdTableViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0B6EB44C214EA51F0011966C /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B90ABA1214BC58200F9F2A5 /* FirstViewController.h */,
+				0B90ABA2214BC58200F9F2A5 /* FirstViewController.m */,
+			);
+			path = FirstViewController;
+			sourceTree = "<group>";
+		};
+		0B6EB44D214EA53A0011966C /* SecontViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B90ABA4214BC58200F9F2A5 /* SecondViewController.h */,
+				0B90ABA5214BC58200F9F2A5 /* SecondViewController.m */,
+			);
+			path = SecontViewController;
+			sourceTree = "<group>";
+		};
+		0B6EB44E214EA5550011966C /* ThirdTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B3CC681214F0BEA002C0BA0 /* ThirdTableViewController.h */,
+				0B3CC682214F0BEA002C0BA0 /* ThirdTableViewController.m */,
+			);
+			path = ThirdTableViewController;
+			sourceTree = "<group>";
+		};
+		0B90AB92214BC58200F9F2A5 = {
+			isa = PBXGroup;
+			children = (
+				0B90AB9D214BC58200F9F2A5 /* GeoWiki */,
+				0B90AB9C214BC58200F9F2A5 /* Products */,
+				B2F4E5B3E4FDC1D91A5CE0E3 /* Pods */,
+				95B5444C6BB71C971334B81E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B90AB9C214BC58200F9F2A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B90AB9B214BC58200F9F2A5 /* GeoWiki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B90AB9D214BC58200F9F2A5 /* GeoWiki */ = {
+			isa = PBXGroup;
+			children = (
+				0B6EB44A214EA4C50011966C /* AppDelegate */,
+				0B6EB421214C07170011966C /* Model */,
+				0B90ABC0214BDA9500F9F2A5 /* UI */,
+				0B90ABAA214BC58400F9F2A5 /* Assets.xcassets */,
+				0B90ABAF214BC58400F9F2A5 /* Info.plist */,
+				0B90ABB0214BC58400F9F2A5 /* main.m */,
+			);
+			path = GeoWiki;
+			sourceTree = "<group>";
+		};
+		0B90ABC0214BDA9500F9F2A5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0B6EB44B214EA4EE0011966C /* ViewControllers */,
+				0B90ABA7214BC58200F9F2A5 /* Main.storyboard */,
+				0B90ABAC214BC58400F9F2A5 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		95B5444C6BB71C971334B81E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B6EB45B214EBFB40011966C /* Foundation.framework */,
+				0B90ABDC214BF50700F9F2A5 /* CoreLocation.framework */,
+				0B90ABC1214BDC3D00F9F2A5 /* MapKit.framework */,
+				86B81B6099106D7774E9A567 /* libPods-GeoWiki.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F4E5B3E4FDC1D91A5CE0E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E290AC9483E758C083E96E49 /* Pods-GeoWiki.debug.xcconfig */,
+				0EA61F5B501267EEF96C39F3 /* Pods-GeoWiki.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B90AB9A214BC58200F9F2A5 /* GeoWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B90ABB4214BC58400F9F2A5 /* Build configuration list for PBXNativeTarget "GeoWiki" */;
+			buildPhases = (
+				4F15A67BBD65AFD210C63F98 /* [CP] Check Pods Manifest.lock */,
+				0B90AB97214BC58200F9F2A5 /* Sources */,
+				0B90AB98214BC58200F9F2A5 /* Frameworks */,
+				0B90AB99214BC58200F9F2A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoWiki;
+			productName = GeoWiki;
+			productReference = 0B90AB9B214BC58200F9F2A5 /* GeoWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B90AB93214BC58200F9F2A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sergei Petrochenko";
+				TargetAttributes = {
+					0B90AB9A214BC58200F9F2A5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B90AB96214BC58200F9F2A5 /* Build configuration list for PBXProject "GeoWiki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B90AB92214BC58200F9F2A5;
+			productRefGroup = 0B90AB9C214BC58200F9F2A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B90AB9A214BC58200F9F2A5 /* GeoWiki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B90AB99214BC58200F9F2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B90ABAE214BC58400F9F2A5 /* LaunchScreen.storyboard in Resources */,
+				0B90ABAB214BC58400F9F2A5 /* Assets.xcassets in Resources */,
+				0B90ABA9214BC58200F9F2A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F15A67BBD65AFD210C63F98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoWiki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B90AB97214BC58200F9F2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B90ABA6214BC58200F9F2A5 /* SecondViewController.m in Sources */,
+				0B3CC683214F0BEA002C0BA0 /* ThirdTableViewController.m in Sources */,
+				0B78B912214EEA1000789E8C /* Page.m in Sources */,
+				0B90ABA0214BC58200F9F2A5 /* AppDelegate.m in Sources */,
+				0B90ABB1214BC58400F9F2A5 /* main.m in Sources */,
+				0B90ABA3214BC58200F9F2A5 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B90ABA7214BC58200F9F2A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B90ABA8214BC58200F9F2A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B90ABAC214BC58400F9F2A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B90ABAD214BC58400F9F2A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B90ABB2214BC58400F9F2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B90ABB3214BC58400F9F2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B90ABB5214BC58400F9F2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E290AC9483E758C083E96E49 /* Pods-GeoWiki.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 987U6RLEYN;
+				INFOPLIST_FILE = GeoWiki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sergeipetrochenko.GeoWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B90ABB6214BC58400F9F2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA61F5B501267EEF96C39F3 /* Pods-GeoWiki.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 987U6RLEYN;
+				INFOPLIST_FILE = GeoWiki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sergeipetrochenko.GeoWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B90AB96214BC58200F9F2A5 /* Build configuration list for PBXProject "GeoWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B90ABB2214BC58400F9F2A5 /* Debug */,
+				0B90ABB3214BC58400F9F2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B90ABB4214BC58400F9F2A5 /* Build configuration list for PBXNativeTarget "GeoWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B90ABB5214BC58400F9F2A5 /* Debug */,
+				0B90ABB6214BC58400F9F2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B90AB93214BC58200F9F2A5 /* Project object */;
+}
